@@ -1,0 +1,7 @@
+<mat-card class="card" *ngIf="info else elseBlock">
+  <mat-card-title>{{info.title}}</mat-card-title>
+  <mat-card-content>{{info.description}}</mat-card-content>
+</mat-card>
+<ng-template #elseBlock>
+  Not found
+</ng-template>

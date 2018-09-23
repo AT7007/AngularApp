@@ -1,0 +1,4 @@
+<mat-card *ngFor="let item of list; let i = index;" class="card" routerLink="/home/info/{{item._id}}">
+  <mat-card-title>{{item.title}}</mat-card-title>
+  <mat-card-subtitle>{{item.description}}</mat-card-subtitle>
+</mat-card>
